@@ -7,94 +7,117 @@ body {
   background:     -ms-linear-gradient(210deg, rgb(2, 73, 72) 0%, rgb(0, 5, 5) 100%) rgb(5, 0, 0);
   background:         linear-gradient(240deg, rgb(2, 73, 72) 0%, rgb(0, 5, 5) 100%) rgb(5, 0, 0);
   background-repeat: no-repeat;
-  font: 400 1.063em/1.38 Helvetica;
-  color: rgb(239, 224, 1);
+  font: 400 2em/1.38 Helvetica;
+  color: rgb(244, 54, 54);
 }
 
 .container {
-  position: relative;
   float: left;
-  z-index: 6;
   width: 100%;
   height: 560px;
-  margin-top: 6px;
+}
+
+.container .container {
+  position: relative;
+  z-index: 5;
 }
 
 .image {
   display: block;
-  position: relative;
   float: left;
   height: auto;
   overflow: hidden;
 }
 
 .text {
-  position: relative;
   float: left;
 }
 
-._button {
+.button-1 {
   display: block;
   position: relative;
   float: left;
+  clear: both;
+  z-index: 2;
+  width: 18.25%;
+  height: 31px;
+  margin: 9px 0 0 1.46615%;
   border-radius: 3px;
   background-color: rgba(222, 222, 222, 0.01);
+  font-size: 0.625em;
   text-align: center;
+  color: rgb(215, 252, 250);
+}
+
+.container-1 {
+  margin-top: 6px;
 }
 
 .image-1 {
-  z-index: 0;
   width: 839px;
-  margin-left: 11.99349%;
+  margin-left: 19.9987%;
 }
 
 .image-2 {
-  z-index: 5;
+  position: relative;
+  z-index: 4;
   width: 60px;
-  margin: 16px 0 0 0.25%;
+  margin-left: 0.25%;
 }
 
 .image-3 {
-  clear: both;
-  z-index: 7;
-  width: 88px;
-  margin: -72px 0 0 2.6666666666%;
+  position: relative;
+  z-index: 10;
+  width: 30px;
+  margin: -547px 0 0 16%;
+}
+
+.image-4 {
+  position: relative;
+  z-index: 9;
+  width: 100px;
+  margin: -240px 0 0 6.38021%;
 }
 
 .text-1 {
-  clear: both;
-  z-index: 1;
   margin: -82px 0 0 14.07422%;
-  font-size: 1em;
+  font-size: 0.531em;
   color: rgb(239, 224, 1);
 }
 
 .text-2 {
-  z-index: 4;
-  margin: 46px 0 0 25.75%;
+  position: relative;
+  z-index: 3;
+  margin: 30px 0 0 10.68099%;
   background-color: rgba(215, 252, 250, 0.01);
-  font-size: 1.882em;
+  font-size: 1em;
   color: rgb(244, 54, 54);
 }
 
-.container ._button-1 {
-  z-index: 2;
-  width: 10.5833333333%;
-  height: 126px;
-  margin: -2px 0 0 0.06771%;
-  background-image: url('../images/w256h2561371382982facebook.png');
-  background-repeat: no-repeat;
-  background-size: 128px 128px;
-  background-position: left top;
-  font-size: 0.941em;
-  color: rgb(0, 0, 0);
+.text-3 {
+  position: relative;
+  clear: both;
+  z-index: 6;
+  margin: -547px 0 0 2.46615%;
+  background-color: rgba(215, 252, 250, 0.01);
+  font-size: 1em;
+  color: rgb(244, 54, 54);
 }
 
-.container ._button-2 {
-  z-index: 3;
-  width: 18.25%;
-  height: 31px;
-  margin: 46px 0 0 0.64714%;
-  font-size: 1.176em;
-  color: rgb(215, 252, 250);
+.text-4 {
+  position: relative;
+  z-index: 7;
+  margin: -475px 0 0 1.46615%;
+  background-color: rgba(215, 252, 250, 0.01);
+  font-size: 1em;
+  color: rgb(244, 54, 54);
+}
+
+.text-5 {
+  position: relative;
+  z-index: 8;
+  margin: -95px 0 0 45.63151%;
+  background-color: rgba(215, 252, 250, 0.01);
+  font-size: 1em;
+  color: rgb(244, 54, 54);
 }

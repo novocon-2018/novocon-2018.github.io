@@ -1,0 +1,149 @@
+body {
+  height: 100%;
+   background: rgb(2, 73, 72);
+  background: -webkit-linear-gradient(210deg, rgb(2, 73, 72) 0%, rgb(0, 5, 5) 100%) rgb(5, 0, 0);
+  background:    -moz-linear-gradient(210deg, rgb(2, 73, 72) 0%, rgb(0, 5, 5) 100%) rgb(5, 0, 0);
+  background:      -o-linear-gradient(210deg, rgb(2, 73, 72) 0%, rgb(0, 5, 5) 100%) rgb(5, 0, 0);
+  background:     -ms-linear-gradient(210deg, rgb(2, 73, 72) 0%, rgb(0, 5, 5) 100%) rgb(5, 0, 0);
+  background:         linear-gradient(240deg, rgb(2, 73, 72) 0%, rgb(0, 5, 5) 100%) rgb(5, 0, 0);
+  background-repeat: no-repeat;
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  position: relative;
+  float: left;
+}
+
+.image {
+  display: block;
+  float: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.text {
+  float: left;
+}
+
+.text-4 p {
+  margin-bottom: 1em;
+}
+
+.button-1 {
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 31px;
+  margin: 13px 0 0 -4.28796%;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0.01);
+  font-size: 1.25em;
+  text-align: center;
+  color: rgb(215, 252, 250);
+}
+
+.container-1 {
+  z-index: 5;
+  width: 18.25%;
+  height: 463px;
+  margin: 18px 0 0 1.5%;
+}
+
+.container-2 {
+  background: rgb(255, 255, 255);
+  clear: both;
+  z-index: 13;
+  width: 69.1666666666%;
+  height: 1021px;
+  margin: -413px 0 0 19.08333%;
+}
+
+.container-3 {
+  z-index: 11;
+  width: 100%;
+  height: 829px;
+  margin-top: -15px;
+}
+
+.container-4 {
+  z-index: 6;
+  width: 100%;
+  height: 839px;
+  margin-top: -33px;
+}
+
+.container-5 {
+  z-index: 10;
+  width: 90.0243309002%;
+  height: 684px;
+  margin: -758px 0 0 6.8069499999%;
+}
+
+.image-1 {
+  position: relative;
+  z-index: 3;
+  width: 30px;
+  margin: 20px 0 0 7.02055%;
+}
+
+.image-2 {
+  clear: both;
+  width: 100px;
+  margin: 197px 0 0 29.39498%;
+}
+
+.text-1 {
+  margin-left: 5.29395%;
+  background-color: rgba(215, 252, 250, 0.01);
+  font-size: 2em;
+  color: rgb(244, 54, 54);
+}
+
+.text-2 {
+  position: relative;
+  clear: both;
+  z-index: 2;
+  margin: 28px 0 0 -0.17837%;
+  background-color: rgba(215, 252, 250, 0.01);
+  font-size: 2em;
+  color: rgb(244, 54, 54);
+}
+
+.text-3 {
+  position: relative;
+  clear: both;
+  z-index: 7;
+  margin: -135px 0 0 6.8069499999%;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.text-4 {
+  width: 100%;
+  min-height: 335px;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.text-5 {
+  clear: both;
+  width: 31.5851108322%;
+  min-height: 90px;
+  margin: 29px 0 0 28.578%;
+  font-size: 1.125em;
+  color: rgb(0, 0, 0);
+}
+
+.text-6 {
+  position: relative;
+  clear: both;
+  z-index: 12;
+  width: 86.6180048661%;
+  min-height: 37px;
+  margin: -814px 0 0 8.3922597323%;
+  font-size: 1.375em;
+  color: rgb(0, 0, 0);
+}
